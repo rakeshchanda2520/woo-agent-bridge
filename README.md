@@ -1,4 +1,5 @@
 # woo-agent-bridge
+<<<<<<< HEAD
 
 **A read-only MCP connector that lets a Razorpay Agent Studio agent answer order, payment and stock questions from a merchant's WooCommerce store, with no ability to change anything.**
 
@@ -468,3 +469,6 @@ docs/            AGENT_CAPABILITIES.md · LIMITATIONS.md · SCENARIOS.md · tool
 | **`woo-razorpay`** | Razorpay's official WooCommerce checkout plugin; writes payment and order ids onto each WooCommerce order |
 | **Read-only key** | WooCommerce `ck_…` / `cs_…` pair created with **Read** permission |
 | **429** | HTTP "Too Many Requests"; a store's way of saying slow down |
+=======
+woo-agent-bridge A read-only MCP connector that lets a Razorpay Agent Studio agent answer order, payment and stock questions from a merchant's WooCommerce store, with no ability to change anything.
+>>>>>>> c8a66334b8a9643fceab546f843b8523cc670806
