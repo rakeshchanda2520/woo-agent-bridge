@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+docker/out/*
+!docker/out/.gitkeep
+docker/certs/*
+!docker/certs/.gitkeep

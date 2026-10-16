@@ -1,0 +1,14 @@
+name: ci
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: no secrets committed
+        run: "! git grep -nIE 'ck_[0-9a-f]{40}|cs_[0-9a-f]{40}|BEGIN [A-Z ]*PRIVATE KEY|rzp_(live|test)_[A-Za-z0-9]{10,}'"
+      - run: uv sync
+      - run: uv run ruff check . && uv run ruff format --check .
+      - run: uv run pytest

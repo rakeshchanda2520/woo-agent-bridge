@@ -1,0 +1,113 @@
+{
+ "id": 18,
+ "parent_id": 0,
+ "status": "completed",
+ "currency": "INR",
+ "version": "11.2.1",
+ "prices_include_tax": false,
+ "date_created": "2026-10-11T10:13:22",
+ "date_modified": "2026-10-16T10:13:22",
+ "discount_total": "0.00",
+ "discount_tax": "0.00",
+ "shipping_total": "0.00",
+ "shipping_tax": "0.00",
+ "cart_tax": "0.00",
+ "total": "998.00",
+ "total_tax": "0.00",
+ "customer_id": 0,
+ "order_key": "wc_order_REDACTED",
+ "billing": {
+  "first_name": "Aarav",
+  "last_name": "Sharma",
+  "company": "",
+  "address_1": "12 MG Road",
+  "address_2": "",
+  "city": "Bengaluru",
+  "state": "KA",
+  "postcode": "560001",
+  "country": "IN",
+  "email": "aarav.sharma@example.com",
+  "phone": "+919000000101"
+ },
+ "shipping": {
+  "first_name": "Aarav",
+  "last_name": "Sharma",
+  "company": "",
+  "address_1": "12 MG Road",
+  "address_2": "",
+  "city": "Bengaluru",
+  "state": "KA",
+  "postcode": "560001",
+  "country": "IN",
+  "phone": ""
+ },
+ "payment_method": "razorpay",
+ "payment_method_title": "Credit Card/Debit Card/NetBanking/UPI",
+ "transaction_id": "pay_SEEDS1000000001",
+ "customer_ip_address": "127.0.0.1",
+ "customer_user_agent": "WP CLI 2.12.0",
+ "created_via": "",
+ "customer_note": "",
+ "date_completed": "2026-10-16T10:13:22",
+ "date_paid": "2026-10-11T10:14:22",
+ "cart_hash": "",
+ "number": "18",
+ "meta_data": [
+  {
+   "id": 193,
+   "key": "_seed_ref",
+   "value": "S1-completed"
+  },
+  {
+   "id": 194,
+   "key": "razorpay_order_id18",
+   "value": "order_SEEDS1000000001"
+  }
+ ],
+ "line_items": [
+  {
+   "id": 1,
+   "name": "Assam Breakfast 500g",
+   "product_id": 11,
+   "variation_id": 0,
+   "quantity": 2,
+   "tax_class": "",
+   "subtotal": "998.00",
+   "subtotal_tax": "0.00",
+   "total": "998.00",
+   "total_tax": "0.00",
+   "taxes": [],
+   "meta_data": [
+    {
+     "id": 10,
+     "key": "_reduced_stock",
+     "value": "2",
+     "display_key": "_reduced_stock",
+     "display_value": "2"
+    }
+   ],
+   "sku": "CC-ASSAM-500",
+   "global_unique_id": "",
+   "price": 499,
+   "image": {
+    "id": "",
+    "src": ""
+   },
+   "parent_name": null
+  }
+ ],
+ "tax_lines": [],
+ "shipping_lines": [],
+ "fee_lines": [],
+ "coupon_lines": [],
+ "refunds": [],
+ "payment_url": "https://localhost:8443/checkout/order-pay/REDACTED",
+ "is_editable": false,
+ "needs_payment": false,
+ "needs_processing": true,
+ "date_created_gmt": "2026-10-11T10:13:22",
+ "date_modified_gmt": "2026-10-16T10:13:22",
+ "date_completed_gmt": "2026-10-16T10:13:22",
+ "date_paid_gmt": "2026-10-11T10:14:22",
+ "currency_symbol": "₹"
+}
